@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: #1B0337;
+}
+
+.tela-inicial{
+    height: 100vh;
+}
+
+header{
+    height: 12%;
+    padding: 0 28px;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+.introducao {
+    padding: 300px 0 150px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    text-align: center;
+}
+
+.conteudo-centralizado {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+h3 .azul {
+    color: #424AE4;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+p {
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    max-width: 550px;
+    color: #A2A2A2;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+p .azul {
+    color: #424AE4;
+    font-weight: bold;
+}
+
+#button-continue {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+    background-color: #2A2F91;
+    color: #FFFFFF;
+    border: none;
+    padding: 13px 54px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.carrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrosel img {
+    pointer-events: none;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+

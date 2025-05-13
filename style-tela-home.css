@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background-color: #1B0337;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    padding: 25px 80% 25px 28px;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.barra-pesquisa {
+    position: relative;
+    width: 100%;
+}
+
+.barra-pesquisa input {
+    width: 100%;
+    padding: 10px 10px 10px 50px; 
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background-color: #28084E;
+    color: #FFFFFF;
+
+}
+
+.barra-pesquisa img {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+}
+
+.informacoes{
+    width: 100%;
+    padding: 0 800px;
+    
+}
+
+.informacoes img{
+    margin-left: -8%;
+    margin-top: 90px;
+    width: 350px;
+    height: auto;
+}
+
+p {
+    margin-left: 20%;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    max-width: 550px;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+p .azul {
+    color: #424AE4;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0; 
+}
+
+.linha {
+    height: 1px;
+    background-color: #B9B9B9;
+    flex-grow: 1; 
+}
+
+.divisor span {
+    margin: 0 20px; 
+    font-size: 15px; 
+    color: #B9B9B9;
+}
+
+.filmes{
+    padding: 0 100px;
+}
+
+.filmes h4{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+
+.card-filmes{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-filmes img{
+    height: auto;
+    width: 200px;
+    border-radius: 5px;
+}
